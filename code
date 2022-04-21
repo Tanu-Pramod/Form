@@ -1,0 +1,15 @@
+div><input type="email" name="email" placeholder="Username"></div>
+
+      <div>
+        <input type="password" name="pass" placeholder="Password">
+      </div>
+
+
+      <div>
+        <input type="checkbox" name="" id="">
+        <a href="#"> Remember me</a>
+        <a href="#"> Recovery Password</a>
+      </div>
+
+      <div><input type="submit" value="Login" class="inp bg"></div>
+

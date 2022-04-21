@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      margin: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .col {
+      width: 50%;
+      height: 605px;
+      float: left;
+
+
+    }
+
+
+
+
+
+    .bgimg {
+      max-width: 100%;
+      height: 100%;
+    }
+
+    .logo {
+      width: 100px;
+      height: auto;
+      border-radius: 50%;
+      border: 2px solid pink;
+
+    }
+
+    form {
+
+
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin: 15%;
+
+
+    }
+
+    .fdiv {
+      width: 100%;
+      text-align: center;
+
+    }
+
+    .inp {
+      width: 100%;
+      margin-top: 10px;
+      padding: 10px;
+      border: 1px solid black;
+      border-radius: 5px;
+    }
+
+    .inp:hover {
+      cursor: pointer;
+      border: 2px solid rgba(0, 0, 255, 0.6);
+
+    }
+
+    .cont {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-top: 10px;
+    }
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+
+    form input:hover::placeholder {
+      color: rgb(248, 59, 90);
+    }
+
+    .login {
+      background-color: rgba(68, 68, 253, 0.849);
+      color: white;
+    }
+
+    .mt {
+      margin-top: 10px;
+
+    }
+
+    .btn {
+      background-color: white;
+    }
+
+    .signup {
+      
+      text-align: center;
+      margin-top: 40px;
+      padding: 5x;
+      }
+      .signup a{
+        color: blue;
+      }
+  </style>
+
+
+</head>
+
+<body>
+
+  <div class="col">
+    <img src="image/form.jpg" alt="image-computer" class="bgimg">
+  </div>
+
+  <div class="col">
+    <form action="">
+
+      <div class="fdiv">
+        <img src="image/logo.jpg" alt="logo" class="logo">
+      </div>
+
+
+      <div class="fdiv">
+        <h2>Hello Again!</h2>
+      </div>
+
+      <div class="fdiv">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis quas voluptatum quod </p>
+
+      </div>
+
+      <div class="mt">
+
+        <div>
+          <input type="email" name="" id="" placeholder="Username" class="inp">
+        </div>
+
+        <div>
+          <input type="password" name="" id="" placeholder="Password" class="inp">
+        </div>
+
+        <div class="cont">
+
+          <div>
+            <input type="checkbox" name="" id="">
+            <a href="#">Remember me</a>
+          </div>
+
+          <div>
+            <a href="#" style="color:blue; font: size 16px;">Recovery Password</a>
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+
+
+      <div class="mt">
+
+        <div>
+          <input type="submit" value="Login" id="" class="inp login">
+        </div>
+        <div><input type="button" value="Sign in with Google" class="inp btn"></div>
+
+
+      </div>
+
+      <div class="signup">
+        <div>
+
+          <span>Don't have an account yet?</span>  <a href="#">Sign up</a>
+        </div>
+      
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+  </div>
+
+
+
+
+
+
+</body>
+
+</html>
